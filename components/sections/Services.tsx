@@ -12,7 +12,7 @@ export default function Services() {
         </h2>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto ">
+      <div className="relative z-10 max-w-7xl mx-20">
         {/* Section Header */}
         <div className="mb-16 max-w-xl">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">
