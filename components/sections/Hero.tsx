@@ -6,7 +6,7 @@ import ScrambledText from "@/components/ui/ScrambledText";
 export default function Hero() {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 flex justify-center select-none">
+      <div className="absolute inset-0 flex justify-center select-none pt-10">
         <SplitText
           text="From Design to Code"
           className="text-[10vw] font-bold text-neutral-800/30 text-center whitespace-nowrap"
@@ -24,13 +24,13 @@ export default function Hero() {
       <img
         src="/heroimg.png"
         alt="Hero Image"
-        className="absolute h-[70vh] object-contain z-10"
+        className="absolute h-[80vh] object-contain z-10 translate-y-16"
       />
 
       {/* Text Left & Right */}
-      <div className="relative z-20 grid grid-cols-1 md:grid-cols-2 w-full max-w-8xl items-center">
+      <div className="relative z-20 grid grid-cols-1 md:grid-cols-2 w-full items-center -translate-y-10">
         {/* Left */}
-        <div className="text-neutral-400 max-w-sm ">
+        <div className="text-neutral-400 max-w-xl">
           <ScrambledText
             className="scrambled-text-demo text-sm"
             radius={100}
@@ -46,12 +46,18 @@ export default function Hero() {
         </div>
 
         {/* Right */}
-        <div className="text-neutral-400 max-w-sm ml-auto text-right">
-          <p>
+        <div className="text-neutral-400 max-w-xl ml-auto text-right">
+          <ScrambledText
+            className="scrambled-text-demo text-sm"
+            radius={100}
+            duration={1.2}
+            speed={0.5}
+            scrambleChars=".:"
+          >
             From concept to development, Kana Creative explores the balance
             between creativity and technology — building digital experiences
             that are both beautiful and functional.
-          </p>
+          </ScrambledText>
         </div>
       </div>
     </section>
