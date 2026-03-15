@@ -6,9 +6,7 @@ export default function ServiceCard({ service }: any) {
                     border border-gray-500/10 rounded-[2.5rem] 
                     transition-all duration-500 hover:bg-white/[0.07] hover:border-white/20"
     >
-      {/* Top Section: Icon & Saved Tag (Opsional) */}
 
-      {/* Main Content */}
       <div className="space-y-4">
         <div className="space-y-1">
           <span className="text-xs font-medium text-neutral-400 opacity-80 uppercase tracking-widest">
@@ -19,7 +17,6 @@ export default function ServiceCard({ service }: any) {
           </h3>
         </div>
 
-        {/* Tags ala 'Full-time' / 'Flexible' */}
         <div className="flex gap-2 py-2">
           <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-xl text-xs text-neutral-300">
             Premium
@@ -34,7 +31,6 @@ export default function ServiceCard({ service }: any) {
         </p>
       </div>
 
-      {/* Bottom Section: Footer ala harga/lokasi */}
       <div className="mt-12 pt-6 border-t border-white/5 flex justify-between items-center">
         <div>
           <p className="text-[10px] text-neutral-500 uppercase tracking-wider mb-2">

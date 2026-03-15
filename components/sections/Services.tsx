@@ -13,7 +13,7 @@ export default function Services() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-20">
-        {/* Section Header */}
+        
         <div className="mb-16 max-w-xl">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">
             What we create
@@ -32,7 +32,6 @@ export default function Services() {
           </ScrambledText>
         </div>
 
-        {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, i) => (
             <ServiceCard key={i} service={service} />
