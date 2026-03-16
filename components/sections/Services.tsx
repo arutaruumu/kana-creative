@@ -4,7 +4,7 @@ import ScrambledText from "@/components/ui/ScrambledText";
 
 export default function Services() {
   return (
-    <section id="services" className="relative py-32 w-full overflow-hidden">
+    <section id="services" className="relative py-32 w-full overflow-visible">
       {/* Background Typography */}
       <div className="absolute inset-0 flex justify-center items-start pointer-events-none select-none">
         <h2 className="text-[14vw] font-bold text-neutral-800/10 whitespace-nowrap">
@@ -12,8 +12,13 @@ export default function Services() {
         </h2>
       </div>
 
+      <img
+        src="/servicesection.png"
+        alt="Services Image"
+        className="absolute right-[-10%] bottom-[-30%] h-[80vh] object-contain z-10 pointer-events-none"
+      />
+
       <div className="relative z-10 max-w-7xl mx-20">
-        
         <div className="mb-16 max-w-xl">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">
             What we create

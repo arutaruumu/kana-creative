@@ -4,7 +4,7 @@ export default function ServiceCard({ service }: any) {
       className="group relative flex flex-col justify-between h-full p-8 
                     bg-white/10  
                     border border-gray-500/10 rounded-[2.5rem] 
-                    transition-all duration-500 hover:bg-emerald-200/10 hover:backdrop-blur-xs hover:border-emerald-600/20"
+                    transition-all duration-500 hover:bg-white/10 hover:backdrop-blur-xs hover:border-emerald-600/20"
     >
 
       <div className="space-y-4">
