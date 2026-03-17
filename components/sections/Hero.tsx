@@ -31,7 +31,7 @@ export default function Hero() {
       {/* Leader Lines (SVG) */}
       <svg className="absolute inset-0 w-full h-full pointer-events-none z-15" xmlns="http://www.w3.org/2000/svg">
         {/* Garis Kiri */}
-        <g className="opacity-50">
+        <g className="opacity-80">
           <polyline
             points="450, 400 500, 400 550,500" 
             fill="none"
