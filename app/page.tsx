@@ -7,7 +7,7 @@ import PixelBlast from "@/components/ui/PixelBlast";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative overflow-hidden">
 
       {/* Background PixelBlast */}
       <div className="fixed inset-0 -z-10">

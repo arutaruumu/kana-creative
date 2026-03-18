@@ -3,7 +3,7 @@ import ScrambledText from "@/components/ui/ScrambledText";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 px-4 md:px-10 lg:px-16">
+    <section id="contact" className="py-24 px-4 md:px-10 lg:px-16 items-center justify-center ">
       <img
         src="/aboutsection.png"
         alt="Services Image"
